@@ -74,7 +74,6 @@ stages:
     (
       succeeded(),
       eq(variables['Build.SourceBranchName'], variables['releaseBranchName'])
-      
     )
   jobs:
   - deployment: Deploy
